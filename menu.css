@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(184, 189, 187);
+}
+ul{
+    display: grid;
+    font-size: larger;
+    grid-template-rows: "a home menue book about b" ;
+    background-color: rgb(16, 71, 37);
+
+}
+ul a{
+    font-size: 150%;
+    grid-row: home;
+    color:rgb(184, 189, 187);
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+    color:rgb(205, 183, 41);
+}
+
+header{
+    text-align: center;
+    background-color:rgb(184, 189, 187);
+}
+header img{
+    width: 100%; /* Make the image take the full width of its container */
+    max-width: 200px; /* Set a maximum width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally */
+    
+        
+}
+header h1{
+    color: #333; /* Set text color */
+    font-family: 'Arial', sans-serif; /* Specify font family */
+    margin-top: 50px; /* Add some space between image and heading */
+    font-size: 500%;
+}
+article img{
+    display: block;
+    margin: 0 auto;
+}
+article h1{
+    text-align: center;
+}
+article p{
+    text-align: center;
+}
